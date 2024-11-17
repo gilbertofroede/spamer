@@ -1,0 +1,92 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./LOGO.png );
+    background-position: CENTER;
+    background-repeat: no-repeat;
+    background-size:100%;
+    color: #ffffff;
+
+}
+
+header {
+    background-image: url(./2.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: rgb(202, 16, 16);
+    color: #ffffff;
+    padding: 100px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.informacoes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+.informacoes-container {
+    margin-top: 20px;
+    background-color: #ff0000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.9);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contato, .redes-sociais {
+    margin-top: 180px;
+}

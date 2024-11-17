@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spamer Calçados e Acessórios</title>
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Spamer Calçados e Acessórios</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="informacoes">
+            <h2>Bem-vindo à Spamer Calçados e Acessórios</h2>
+            <p>Encontre os melhores calçados e acessórios para o seu estilo!</p>
+            <button id="infoButton" onclick="mostrarInformacoes()">Horário de Funcionamento e Endereço</button>
+            <div id="informacoes-container" class="informacoes-container" style="display: none;">
+                <div class="horario">
+                    <h3>Horário de Funcionamento</h3>
+                    <ul>
+                        <li>Segunda a Sexta: 9h - 18h</li>
+                        <li>Sábado: 9h - 14h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+                <div class="endereco">
+                    <h3>Endereço das Lojas</h3>
+                    <p>R. Rachid Handere - Bela Vista, 1083</p>
+                    <p>R. Gustavo Leonardo, 42, São Jacinto</p>
+                    <p>R. Epaminondas Otoni, 440 - Centro</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="contato">
+                <h3>Contate-nos</h3>
+                <ul>
+                    <li>
+                        <button onclick="window.location.href='tel:+5533984683253'">Telefone: (33) 98468-3253</button>
+                    </li>
+                    <li>
+                        <button onclick="window.location.href='mailto:spamercalcados@hotmail.com'">Email: spamercalcados@hotmail.com</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="redes-sociais">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <li>
+                        <button onclick="window.open('https://www.facebook.com/share/1YRhnKKxyB/', '_blank')">Facebook</button>
+                    </li>
+                    <li>
+                        <button onclick="window.open('https://www.instagram.com/spamer_calcados/', '_blank')">Instagram</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Spamer Calçados e Acessórios.</p>
+    </footer>
+
+    <!-- Link para o JS -->
+    <script src="script.js"></script>
+</body>
+</html>
